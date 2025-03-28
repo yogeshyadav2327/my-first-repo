@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+textarea {
+    width: 45%;
+    height: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#preview {
+    width: 45%;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    overflow-y: auto;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
